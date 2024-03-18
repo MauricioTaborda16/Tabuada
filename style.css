@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    color:white;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+}
+
+section{
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+   
+}
+
+#botao{
+    background-color: #006666;
+    color:aliceblue;
+    border: 0px;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+#botao:hover{ cursor: pointer;}
+
+.for{
+    margin: 8px;
+    border-radius: 10px;
+    border-style: none;
+    height: 20px;
+    width: 200px;
+}
